@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.searchIcon{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5% 12% auto auto;
+    background-color: #F7F7F7;
+}
+.header{
+    background-color:#DC143C
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 15% 10% auto auto;
+}
+
+.searchbar{
+    width: 800px;
+    height: 50px;
+    font-size: 24px;
+
+}
+.searchbarContainer{
+    text-align: left;
+    align-items: center;
+    line-height: 170px;
+}
+.searchIconContainer{
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    line-height: 215px;
+}
+
+.socialmedia{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Login{
+    width: 120px;
+    height: 12%;
+}
+
+
+.facebookLogo{
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 60px;
+
+}
+.instaLogo{
+    width: 140px;
+    float: right;
+    margin-left: 10px;
+
+}
